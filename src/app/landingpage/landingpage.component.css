@@ -1,0 +1,46 @@
+.carousel-caption {
+    left: 20px;
+    right: auto;
+    text-align: left;
+    transform: translate(0, -50%);
+    top: 50%;
+}
+
+.fixed-button {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9999;
+}
+
+.card{
+   padding: 60px 30px 35px 30px;
+}
+
+.card-img-top {
+    object-fit: fill;
+    height: 90px;
+    width: 100px;
+  }
+
+.bimg{
+    align-self: center;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    height: 328.49px; 
+    transform: translate(0px, -14.0491px);
+}
+
+.service-image{
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center; 
+    height: 328.49px;
+    transform: translate(0px, -20.1297px);
+}
+#carouselExampleCaptions .carousel-item img {
+    height: 700px; /* Adjust the height as per your requirement */
+    width: 100%; /* Set the width to 100% for responsiveness */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+  }

@@ -1,0 +1,10 @@
+<div class=" container faq-item" *ngFor="let item of faqItems">
+    <div class="qandb">
+    <h4>{{ item.question }}</h4>
+      <button class=" button button-sm expand-button" (click)="toggleAnswer(item)">
+        +
+      </button>
+    </div>
+    <p class="answer" [class.show]="item.expanded">{{ item.answer }}</p>
+  </div>
+  
